@@ -1,0 +1,22 @@
+{
+  "error": null,
+  "metadata": {
+    "total": 1,
+    "limit": 1000,
+    "offset": 0
+  },
+  "data": [
+    {
+      "id": 2,
+      "description": "Example",
+      "date": "2018-05-22",
+      "user": {
+        "name": "Gustav Petterson",
+        "email": "apidocs@upsales.com"
+      },
+      "client": {
+        "name": "Example inc"
+      }
+    }
+  ]
+}

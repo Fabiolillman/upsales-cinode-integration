@@ -1,0 +1,116 @@
+{
+    "error": null,
+    "metadata": {
+      "total": 1,
+      "limit": 1000,
+      "offset": 0
+    },
+    "data": [
+      {
+        "id": 1,
+        "description": "10 licenses",
+        "closeDate": "2018-05-22",
+        "date": "2018-05-22",
+        "notes": "",
+        "user": {
+          "id": 1,
+          "name": "Gustav Petterson",
+          "role": null,
+          "email": "apidocs@upsales.com"
+        },
+        "client": {
+          "name": "Pied piper",
+          "id": 2,
+          "users": [
+            {
+              "id": 1,
+              "name": "Gustav Petterson",
+              "role": null,
+              "email": "apidocs@upsales.com"
+            }
+          ]
+        },
+        "contact": null,
+        "project": null,
+        "regDate": "2018-05-22T11:08:26.000Z",
+        "stage": {
+          "name": "Won - Order",
+          "id": 12
+        },
+        "probability": 100,
+        "modDate": "2018-05-22T11:13:59.000Z",
+        "clientConnection": null,
+        "currencyRate": 1,
+        "currency": "SEK",
+        "locked": 0,
+        "custom": [
+          {
+            "value": "2018-05-23",
+            "valueDate": "2018-05-23",
+            "orgNumber": 20180523,
+            "fieldId": 1
+          }
+        ],
+        "orderRow": [
+          {
+            "id": 1,
+            "quantity": 1,
+            "price": 10000,
+            "discount": 0,
+            "custom": [],
+            "productId": 1,
+            "sortId": 1,
+            "listPrice": 10000,
+            "product": {
+              "name": "Example product",
+              "id": 1,
+              "category": null
+            }
+          },
+          {
+            "id": 2,
+            "quantity": 1,
+            "price": 10000,
+            "discount": 0,
+            "custom": [],
+            "productId": 1,
+            "sortId": 1,
+            "listPrice": 10000,
+            "product": {
+              "name": "Example bundle",
+              "id": 1,
+              "category": null
+            },
+            "bundleRows": [
+              {
+                "productId": 10,
+                "quantity": 1,
+                "tierQuantity": 1,
+                "sortId": 1,
+                "price": 100,
+                "listPrice": 120,
+                "purchaseCost": 50
+              },
+              {
+                "productId": 11,
+                "quantity": 1,
+                "tierQuantity": 10,
+                "sortId": 1,
+                "price": 200,
+                "listPrice": 220,
+                "purchaseCost": 100
+              }
+            ]
+          }
+        ],
+        "value": 10000,
+        "weightedValue": 10000,
+        "valueInMasterCurrency": 10000,
+        "weightedValueInMasterCurrency": 10000,
+        "agreement": null,
+        "userRemovable": true,
+        "userEditable": true
+      }
+    ]
+  }
+  
